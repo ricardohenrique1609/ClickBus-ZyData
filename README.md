@@ -6,40 +6,6 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
 
 ## 📌 Estrutura do Projeto  
 
-📁 PROJETO_CLICKBUS/
-├── 📁 dados/
-│ ├── 📄 conversor.py → Anonimiza clientes e normaliza cidades dos dados brutos.
-│ ├── 📊 clickbus_tratado 1.csv → Conjunto de dados original.
-│ └── 📊 clickbus_tratado_final.csv → Conjunto de dados limpo, pronto para os scripts.
-├── 📁 outputs/
-│ ├── 📊 clientes_segmentados.csv → Saída da segmentação RFM por cliente.
-│ ├── 📊 predicoes_clickbus_hierarquico.csv → Saída bruta com as predições do modelo de ML.
-│ └── 📊 predicoes_com_campanhas.csv → Arquivo final acionável com as campanhas.
-├── 📁 scripts/
-│ ├── 📄 modelo.py → Pipeline hierárquico de Machine Learning:
-│ │ ├── Classificador Gatekeeper (compra em 7 dias?)
-│ │ ├── Regressores de curto (0-7d) e longo prazo (>7d)
-│ │ └── Classificador de próximo trecho
-│ ├── 📄 perfil_viagem.py → Segmentação de clientes via RFM e análise de perfil.
-│ └── 📄 promocoes.py → Aplicar a lógica de negócio para gerar campanhas de marketing.
-
-
-📁 ClickBus/  
-├── 📁 dados/
-├── 📄 conversor.py → Anonimiza clientes e normaliza cidades dos dados brutos.
-│ ├── 📊 clickbus_tratado 1.csv → Conjunto de dados original.
-│ └── 📊 clickbus_tratado_final.csv → Conjunto de dados limpo, pronto para os scripts. 
-├── 📁 outputs/
-│ ├── 📊 clientes_segmentados.csv → Saída da segmentação RFM por cliente.
-│ ├── 📊 predicoes_clickbus_hierarquico.csv → Saída bruta com as predições do modelo de ML.
-│ └── 📊 predicoes_com_campanhas.csv → Arquivo final acionável com as campanhas. 
-├── 📁 scripts/
-│ ├── 📄 modelo.py → Pipeline hierárquico de Machine Learning:
-│ │ ├── Classificador Gatekeeper (compra em 7 dias?)
-│ │ ├── Regressores de curto (0-7d) e longo prazo (>7d)
-│ │ └── Classificador de próximo trecho
-│ ├── 📄 perfil_viagem.py → Segmentação de clientes via RFM e análise de perfil.
-│ └── 📄 promocoes.py → Aplicar a lógica de negócio para gerar campanhas de marketing.
 ---
 
 ## 🚀 Etapas realizadas  
