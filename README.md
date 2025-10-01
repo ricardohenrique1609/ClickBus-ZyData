@@ -18,6 +18,7 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
     ├── 📄 modelo.py                       # Pipeline hierárquico de Machine Learning.
     ├── 📄 perfil_viagem.py                 # Segmentação de clientes via RFM e perfil de viagem.
     └── 📄 promocoes.py                     # Aplica a lógica de negócio para gerar campanhas.
+    
 ---
 
 ## 🚀 Etapas realizadas  
