@@ -5,20 +5,19 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
 ---
 
 ## 📌 Estrutura do Projeto  
-📁 ClickBus_Customer_Intelligence/
+📁 PROJETO_CLICKBUS/
 ├── 📁 dados/
-│   ├── 📄 clickbus_tratado 1.csv          # Raw data with sensitive information
-│   └── 📄 clickbus_tratado_final.csv      # Anonymized and processed data
+│   ├── 📄 conversor.py                    # Anonimiza clientes e normaliza cidades dos dados brutos.
+│   ├── 📊 clickbus_tratado 1.csv          # Dataset original.
+│   └── 📊 clickbus_tratado_final.csv      # Dataset pronto para análise.
 ├── 📁 outputs/
-│   ├── 📄 clientes_segmentados.csv        # Customer segmentation results (RFM)
-│   ├── 📄 predicoes_clickbus_hierarquico.csv # Raw ML model predictions
-│   └── 📄 predicoes_com_campanhas.csv     # Final actionable file with suggested campaigns
-├── 📁 scripts/
-│   ├── 📄 conversor.py                    # Anonymizes customer and location data
-│   ├── 📄 perfil_viagem.py                # Performs RFM segmentation and profiling
-│   ├── 📄 modelo.py                       # Trains and evaluates the hierarchical ML models
-│   └── 📄 promocoes.py                    # Applies business logic to generate marketing campaigns
-└── 📊 ClickBus_Dashboard.pbix             # Power BI dashboard file (represented by images)
+│   ├── 📊 clientes_segmentados.csv        # Saída da segmentação RFM.
+│   ├── 📊 predicoes_clickbus_hierarquico.csv # Saída bruta do modelo de ML.
+│   └── 📊 predicoes_com_campanhas.csv    # Resultado final com campanhas sugeridas.
+└── 📁 scripts/
+    ├── 📄 modelo.py                       # Pipeline hierárquico de Machine Learning.
+    ├── 📄 perfil_viagem.py                 # Segmentação de clientes via RFM e perfil de viagem.
+    └── 📄 promocoes.py                     # Aplica a lógica de negócio para gerar campanhas.
 ---
 
 ## 🚀 Etapas realizadas  
