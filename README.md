@@ -95,7 +95,7 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
 
 
 ---
-- Link do Power BI
+- Link do Dashboard
   https://app.powerbi.com/links/QuS1JEqMg6?ctid=11dbbfe2-89b8-4549-be10-cec364e59551&pbi_source=linkShare
 ---
 
