@@ -102,10 +102,10 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
 ## 👨‍💻 Autores
 
 **Ricardo Henrique Ramos Silva**  
-**Bruno souza**  
+**Bruno de Souza Oliveira**  
 **Tiago Sousa Leite**  
-**Daniel Gallo**  
-**Rodrigo Oshiro**
+**Daniel Gallo de Almeida Junior**  
+**Rodrigo Silva Oshiro**
  
 
 
