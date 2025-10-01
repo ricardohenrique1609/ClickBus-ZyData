@@ -93,18 +93,18 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
 <img width="900" height="560" alt="image" src="https://github.com/user-attachments/assets/30093a0d-4e8d-413e-aa4c-3af749842866" />
 
 
+---
+- Link do Power BI
+  https://app.powerbi.com/links/QuS1JEqMg6?ctid=11dbbfe2-89b8-4549-be10-cec364e59551&pbi_source=linkShare
+---
+
 ## 👨‍💻 Autores
 
 **Ricardo Henrique Ramos Silva**  
 **Tiago Sousa Leite**  
 **Daniel Gallo**  
 **Rodrigo Oshiro**
-**Bruno souza**  
 
----
-- Link do Power BI
-  https://app.powerbi.com/links/QuS1JEqMg6?ctid=11dbbfe2-89b8-4549-be10-cec364e59551&pbi_source=linkShare
-  
----
+**Bruno souza**  
 
 
