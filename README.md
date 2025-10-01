@@ -8,38 +8,20 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
 
 📁 PROJETO_CLICKBUS/
 ├── 📁 dados/
-│   ├── 📄 conversor.py → Anonimiza clientes e normaliza cidades dos dados brutos.
-│   ├── 📊 clickbus_tratado 1.csv → Dataset original.
-│   └── 📊 clickbus_tratado_final.csv → Dataset limpo, pronto para os scripts.
-│
+│ ├── 📄 conversor.py → Anonimiza clientes e normaliza cidades dos dados brutos.
+│ ├── 📊 clickbus_tratado 1.csv → Conjunto de dados original.
+│ └── 📊 clickbus_tratado_final.csv → Conjunto de dados limpo, pronto para os scripts.
 ├── 📁 outputs/
-│   ├── 📊 clientes_segmentados.csv → Saída da segmentação RFM por cliente.
-│   ├── 📊 predicoes_clickbus_hierarquico.csv → Saída bruta com as predições do modelo de ML.
-│   └── 📊 predicoes_com_campanhas.csv → Arquivo final acionável com as campanhas.
-│
-└── 📁 scripts/
-    ├── 📄 modelo.py → Pipeline hierárquico de Machine Learning:
-    │   ├── Classificador Gatekeeper (compra em 7 dias?)
-    │   ├── Regressores de curto (0-7d) e longo prazo (>7d)
-    │   └── Classificador de próximo trecho
-    ├── 📄 perfil_viagem.py → Segmentação de clientes via RFM e análise de perfil.
-    └── 📄 promocoes.py → Aplica a lógica de negócio para gerar as campanhas de marketing.
-
-
-
-📁 ClickBus/  
-├── 📄 **conversor.py** → Tratamento inicial do dataset (normalização de cidades e clientes).  
-├── 📄 **modelo.py** → Pipeline hierárquico de Machine Learning:  
-│   ├── Classificador Gatekeeper (compra em 7 dias?)  
-│   ├── Regressor curto prazo (0-7 dias)  
-│   ├── Regressor longo prazo (>7 dias)  
-│   └── Classificador de próximo trecho  
-├── 📄 **perfil_viagem.py** → Segmentação de clientes via **RFM + tipo de viagem preferido**.  
-├── 📄 **promocoes.py** → Lógica de campanhas (VIP, reativação, fidelização).  
-├── 📊 **clientes_segmentados.csv** → Saída da segmentação RFM.  
-├── 📊 **predicoes_clickbus_hierarquico.csv** → Saída bruta do modelo hierárquico.  
-├── 📊 **predicoes_com_campanhas.csv** → Resultado final com campanhas e textos personalizados.  
-└── 📁 **/outputs** → Armazenamento dos resultados para análise no Power BI. 
+│ ├── 📊 clientes_segmentados.csv → Saída da segmentação RFM por cliente.
+│ ├── 📊 predicoes_clickbus_hierarquico.csv → Saída bruta com as predições do modelo de ML.
+│ └── 📊 predicoes_com_campanhas.csv → Arquivo final acionável com as campanhas.
+├── 📁 scripts/
+│ ├── 📄 modelo.py → Pipeline hierárquico de Machine Learning:
+│ │ ├── Classificador Gatekeeper (compra em 7 dias?)
+│ │ ├── Regressores de curto (0-7d) e longo prazo (>7d)
+│ │ └── Classificador de próximo trecho
+│ ├── 📄 perfil_viagem.py → Segmentação de clientes via RFM e análise de perfil.
+│ └── 📄 promocoes.py → Aplicar a lógica de negócio para gerar campanhas de marketing.
 
 ---
 
