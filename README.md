@@ -25,6 +25,22 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
     ├── 📄 perfil_viagem.py → Segmentação de clientes via RFM e análise de perfil.
     └── 📄 promocoes.py → Aplica a lógica de negócio para gerar as campanhas de marketing.
 
+
+
+📁 ClickBus/  
+├── 📄 **conversor.py** → Tratamento inicial do dataset (normalização de cidades e clientes).  
+├── 📄 **modelo.py** → Pipeline hierárquico de Machine Learning:  
+│   ├── Classificador Gatekeeper (compra em 7 dias?)  
+│   ├── Regressor curto prazo (0-7 dias)  
+│   ├── Regressor longo prazo (>7 dias)  
+│   └── Classificador de próximo trecho  
+├── 📄 **perfil_viagem.py** → Segmentação de clientes via **RFM + tipo de viagem preferido**.  
+├── 📄 **promocoes.py** → Lógica de campanhas (VIP, reativação, fidelização).  
+├── 📊 **clientes_segmentados.csv** → Saída da segmentação RFM.  
+├── 📊 **predicoes_clickbus_hierarquico.csv** → Saída bruta do modelo hierárquico.  
+├── 📊 **predicoes_com_campanhas.csv** → Resultado final com campanhas e textos personalizados.  
+└── 📁 **/outputs** → Armazenamento dos resultados para análise no Power BI. 
+
 ---
 
 ## 🚀 Etapas realizadas  
