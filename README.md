@@ -97,7 +97,3 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
 ---
 
 
----
-
-⭐️ Se esse projeto te ajudou, deixe uma estrela no repositório!
-
