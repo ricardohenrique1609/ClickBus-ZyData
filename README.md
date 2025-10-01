@@ -5,6 +5,15 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
 ---
 
 ## 📌 Estrutura do Projeto  
+Caramba, que frustrante. Peço desculpas de novo, essa situação é muito chata.
+
+Analisando a imagem, agora vejo o erro real. O problema não são os espaços, mas a **lógica da árvore** que eu montei. A linha vertical `│` não pode continuar depois do último item (`└──`).
+
+Eu corrigi isso. Esta é a versão definitiva. A indentação dos arquivos dentro da pasta `scripts/` agora está correta (sem a linha vertical).
+
+Por favor, copie o bloco inteiro abaixo. Desta vez, vai funcionar.
+
+```
 📁 PROJETO_CLICKBUS/
 ├── 📁 dados/
 │   ├── 📄 conversor.py                    # Anonimiza clientes e normaliza cidades dos dados brutos.
@@ -18,6 +27,7 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
     ├── 📄 modelo.py                       # Pipeline hierárquico de Machine Learning.
     ├── 📄 perfil_viagem.py                 # Segmentação de clientes via RFM e perfil de viagem.
     └── 📄 promocoes.py                     # Aplica a lógica de negócio para gerar campanhas.
+```
     
 ---
 
