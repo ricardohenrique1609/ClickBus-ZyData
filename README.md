@@ -91,8 +91,8 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
 
 ## 📷 Power BI  
 
-*(Adicionar aqui prints dos dashboards em PNG/JPG ou GIF animado mostrando as interações.)*  
-<img width="1728" height="988" alt="image" src="https://github.com/user-attachments/assets/5d24531d-b28a-41ac-b51e-353758cb47c3" />
+*(<img width="1700" height="950" alt="image" src="https://github.com/user-attachments/assets/5d24531d-b28a-41ac-b51e-353758cb47c3" />)*  
+
 
 ---
 
