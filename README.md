@@ -104,7 +104,6 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
 **Tiago Sousa Leite**  
 **Daniel Gallo**  
 **Rodrigo Oshiro**
-
 **Bruno souza**  
 
 
