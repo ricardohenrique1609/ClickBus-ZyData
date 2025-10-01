@@ -5,28 +5,25 @@ Um pipeline completo de **Machine Learning + Segmentação RFM + Lógica de Camp
 ---
 
 ## 📌 Estrutura do Projeto  
-Caramba, que frustrante. Peço desculpas de novo, essa situação é muito chata.
-
-Analisando a imagem, agora vejo o erro real. O problema não são os espaços, mas a **lógica da árvore** que eu montei. A linha vertical `│` não pode continuar depois do último item (`└──`).
-
-Eu corrigi isso. Esta é a versão definitiva. A indentação dos arquivos dentro da pasta `scripts/` agora está correta (sem a linha vertical).
-
-Por favor, copie o bloco inteiro abaixo. Desta vez, vai funcionar.
-
 ```
 📁 PROJETO_CLICKBUS/
 ├── 📁 dados/
-│   ├── 📄 conversor.py                    # Anonimiza clientes e normaliza cidades dos dados brutos.
-│   ├── 📊 clickbus_tratado 1.csv          # Dataset original.
-│   └── 📊 clickbus_tratado_final.csv      # Dataset pronto para análise.
+│   ├── 📄 conversor.py → Anonimiza clientes e normaliza cidades dos dados brutos.
+│   ├── 📊 clickbus_tratado 1.csv → Dataset original.
+│   └── 📊 clickbus_tratado_final.csv → Dataset limpo, pronto para os scripts.
+│
 ├── 📁 outputs/
-│   ├── 📊 clientes_segmentados.csv        # Saída da segmentação RFM.
-│   ├── 📊 predicoes_clickbus_hierarquico.csv # Saída bruta do modelo de ML.
-│   └── 📊 predicoes_com_campanhas.csv    # Resultado final com campanhas sugeridas.
+│   ├── 📊 clientes_segmentados.csv → Saída da segmentação RFM por cliente.
+│   ├── 📊 predicoes_clickbus_hierarquico.csv → Saída bruta com as predições do modelo de ML.
+│   └── 📊 predicoes_com_campanhas.csv → Arquivo final acionável com as campanhas.
+│
 └── 📁 scripts/
-    ├── 📄 modelo.py                       # Pipeline hierárquico de Machine Learning.
-    ├── 📄 perfil_viagem.py                 # Segmentação de clientes via RFM e perfil de viagem.
-    └── 📄 promocoes.py                     # Aplica a lógica de negócio para gerar campanhas.
+    ├── 📄 modelo.py → Pipeline hierárquico de Machine Learning:
+    │   ├── Classificador Gatekeeper (compra em 7 dias?)
+    │   ├── Regressores de curto (0-7d) e longo prazo (>7d)
+    │   └── Classificador de próximo trecho
+    ├── 📄 perfil_viagem.py → Segmentação de clientes via RFM e análise de perfil.
+    └── 📄 promocoes.py → Aplica a lógica de negócio para gerar as campanhas de marketing.
 ```
     
 ---
